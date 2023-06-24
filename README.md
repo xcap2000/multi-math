@@ -8,3 +8,17 @@ exists at the end of that module.
 I will update this repo below with any problems or small issues reported between updates to the actual course.
 
 Thanks for watching and good luck on your TypeScript projects!
+
+Prompt
+set NODE_OPTIONS=--openssl-legacy-provider
+
+PowerShell
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
+
+tsc -w # watch mode.
+
+# Links
+
+```
+https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+```
