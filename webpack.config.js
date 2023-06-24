@@ -12,12 +12,12 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ]
+    extensions: ['.tsx', '.ts', '.js']
   },
   output: {
     filename: 'bundle.js'
   },
   devServer: {
-    inline: false
+    inline: true // true makes the browser refresh whenever a file changes, for demo purpose it was disabled.
   }
 };
