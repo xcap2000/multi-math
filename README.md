@@ -15,6 +15,9 @@ set NODE_OPTIONS=--openssl-legacy-provider
 PowerShell
 $env:NODE_OPTIONS = "--openssl-legacy-provider"
 
+Bash
+export NODE_OPTIONS=--openssl-legacy-provider
+
 tsc -w # watch mode.
 
 # Links
